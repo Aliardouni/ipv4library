@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1746084701 source:c:\users\utente\desktop\compito_libreria\mylib\mynetlib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+
+1746084250 source:c:\users\utente\desktop\compito_libreria\mylib\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"MyNetLib.h"
+
+1746083851 c:\users\utente\desktop\compito_libreria\mylib\mynetlib.h
+
