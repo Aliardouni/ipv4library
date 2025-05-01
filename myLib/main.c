@@ -7,10 +7,11 @@
 int main() {
     char* ip = malloc(16);
     int valido = 0;
-    int CIDR = 0;
-
+    int CIDR = 0;  //Classless Inter-Domain Routing
+    
+//in case of failed allocation
     if (ip == NULL) {
-        printf("Errore nell'allocazione della memoria.\n");
+        printf("Errore nell'allocazione della memoria.\n"); 
         return 1;
     }
 
@@ -22,7 +23,7 @@ int main() {
 
     printf("\n");
 
-    if(valido == 4){
+    if(valido == 4){ //it is true only if all 4 octets are verified
         printf("l'ip inserito e valido");
     }else{
         printf("l'ip inserito non e valido");
